@@ -1,5 +1,4 @@
 """Default homescreen
-
 This is the default homescreen for the Tilda Mk4.
 It gets automatically installed when a badge is
 newly activated or reset.
@@ -41,12 +40,12 @@ max_name = 8
 
 # Background stuff
 
-ugfx.clear(ugfx.html_color(0x008080))
+ugfx.clear(ugfx.html_color(0x800080))
 
 # Colour stuff
 style = ugfx.Style()
-style.set_enabled([ugfx.WHITE, ugfx.html_color(0x008080), ugfx.html_color(0x008080), ugfx.html_color(0x008080)])
-style.set_background(ugfx.html_color(0x008080))
+style.set_enabled([ugfx.WHITE, ugfx.html_color(0x800080), ugfx.html_color(0x800080), ugfx.html_color(0x800080)])
+style.set_background(ugfx.html_color(0x800080))
 ugfx.set_default_style(style)
 
 # Logo stuff
